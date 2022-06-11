@@ -1,5 +1,5 @@
 body {
-background: red; 
+background: white; 
 }
 ul {
 list-style-type: square;
@@ -8,11 +8,11 @@ text-align: center;
 }
 h1{
 text-align: center;
-color: white;
+color: black;
 }
 h6 {
 text-align: center;  
-color: white;
+color: black;
 }
 p {
 text-align: center;
