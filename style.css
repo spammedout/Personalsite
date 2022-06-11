@@ -1,9 +1,10 @@
 body {
-background: black; 
+background: red; 
 }
 ul {
 list-style-type: square;
 color: aqua;
+text-align: center; 
 }
 h1{
 text-align: center;
@@ -23,7 +24,7 @@ color: aqua;
 }
 hr {
 text-align center;
-color: white;
+color: black;
 }
 img {
 width: 175px; 
