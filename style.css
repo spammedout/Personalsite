@@ -1,35 +1,35 @@
 body {
-background: white; 
+background: black; 
 }
 ul {
 list-style-type: square;
-color: aqua;
+color: white;
 text-align: center; 
 }
 h1{
 text-align: center;
-color: black;
+color: white;
 }
 h6 {
 text-align: center;  
-color: black;
+color: white;
 }
 p {
 text-align: center;
-color: yellow;
+color: white
 }
 li {
-text-align: center;
-color: aqua;
+text-align: left;
+color: white;
 }
 hr {
 text-align center;
-color: black;
+color: white;
 }
 img {
 width: 175px; 
 height: 175px; 
-border: 8px lightcoral; 
+border: 8px white; 
 margin: 10px;  
 }
 
