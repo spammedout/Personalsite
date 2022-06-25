@@ -1,35 +1,88 @@
 body {
-background: black; 
-}
-ul {
-list-style-type: square;
-color: white;
-text-align: center; 
-}
-h1{
-text-align: center;
-color: white;
-}
-h6 {
-text-align: center;  
-color: white;
-}
-p {
-text-align: center;
-color: white
-}
-li {
-text-align: left;
-color: white;
-}
-hr {
-text-align center;
-color: white;
-}
-img {
-width: 175px; 
-height: 175px; 
-border: 8px white; 
-margin: 10px;  
+
+    background: black; 
+    }
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
 }
 
+/* On mouse-over */
+.btn:hover {background: #eee;}
+
+.success {color: white;
+transform: translateX(220px);
+}
+.success:hover{background: skyblue;}
+.info:hover{background: blue;}
+.info {color: white;
+transform: translateX(220px);
+}
+.warning:hover{background: darkblue;}
+.warning {color: white;
+transform: translateX(220px);
+}
+.clip-text {
+  background: url(http://i.giphy.com/fsULJFFGv8X3G.gif);
+
+  background-size: cover;
+  background-position: center;
+  
+  -webkit-background-clip: text;
+  color: transparent; // set to transparent, otherwise won't see the background
+  
+  width: 500px;
+  height: 100px;
+  box-sizing: border-box;
+  font-size: 57.5px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 100px;
+  flex-shrink: 0;
+}
+View Compiled
+
+Resources
+    ul {
+    list-style-type: square;
+    color: white;
+    text-align: center; 
+    }
+    h1{
+    text-align: center;
+    color: white;
+    }
+    h6 {
+    text-align: center;  
+    color: white;
+    }
+    p {
+    text-align: center;
+    color: white
+    }
+    li {
+    text-align: left;
+    color: white;
+    }
+    hr {
+    text-align center;
+    color: white;
+    }
+    img {
+    width: 175px; 
+    height: 175px; 
+    border: 8px white; 
+    margin: 10px;  
+    transform: translateX(250px);
+    }  
+video {
+transform: translateX(200px);
+}
+.sum {
+color: white;
+transform: translateX(260px);
+}
