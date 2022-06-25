@@ -9,6 +9,7 @@ body {
   font-size: 16px;
   cursor: pointer;
   display: inline-block;
+  transform: translateX(220px);
 }
 
 /* On mouse-over */
@@ -33,7 +34,7 @@ transform: translateX(220px);
   background-position: center;
   
   -webkit-background-clip: text;
-  color: transparent; // set to transparent, otherwise won't see the background
+  color: transparent; //set to transparent otherwise won't see it
   
   width: 500px;
   height: 100px;
@@ -44,10 +45,7 @@ transform: translateX(220px);
   line-height: 100px;
   flex-shrink: 0;
 }
-View Compiled
-
-Resources
-    ul {
+ul {
     list-style-type: square;
     color: white;
     text-align: center; 
